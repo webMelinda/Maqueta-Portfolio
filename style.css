@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    background: rgb(24, 24, 26);
+}
+
+.list-group{
+    --bs-list-group-bg: transparent;
+    --bs-list-group-color: #f8f9fa
+}
+
+
+i.fa-brands.fa-linkedin.fa-xl:hover,
+i.fa-brands.fa-github.fa-xl:hover,
+i.fa-solid.fa-envelope.fa-xl:hover{
+    color: rgb(177, 173, 176);
+}
+ /* Banner */
+.banner{
+    position: relative;
+    widows: 100%;
+    height: calc(100vh - 50px);
+    background-image: url(../IMG/laptop-gb8896c9ab_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.capa{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.contenido{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.contenido h1{
+    margin: 20px;
+}
+
+.contenido h2{
+    margin: 20px;
+}
+
+.contenido h2 strong{
+    color: rgb(165, 42, 73);
+}
+.contenido h4{
+       font-size: 18px;
+} 
+/*About me*/
+.row{
+    align-items: center;
+    color: white;
+}
+
+.col-6{
+    padding: 2rem;
+}
+
+.divider{
+    height: 4px;
+    width: 60px;
+    background-color: rgb(165, 42, 73);
+    margin-top: 10px;
+    margin-bottom: 2em;
+
+}
+
+.col ul li strong{
+    display: inline-block;
+    color: rgb(165, 42, 73);
+    width: 110px;
+}
+
+button.btn.btn-light{
+    margin: 50px;
+}
+
+/*experiencia*/
+.experiencia{
+    color: white;
+    padding: 5em;
+}
+
+.experiencia h2{
+    font-size: 2.5em;
+}
+
+.edu{
+color: white;
+padding: 5em ;
+margin-left: 5em;
+}
+
+.edu h2{
+    font-size: 2.5em;
+}
+
+.progress{
+    --bs-progress-bar-bg: rgb(165, 42, 73);
+}
+.card{
+    --bs-card-bg: #636464;
+}
+footer{
+    background: rgb(14, 13, 13);
+    padding: 20px 0;
+    color: rgb(24, 24, 26);
+    margin-top: 40px;
+}
